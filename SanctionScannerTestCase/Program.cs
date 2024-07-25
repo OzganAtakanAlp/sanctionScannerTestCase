@@ -6,6 +6,8 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine("Hello, Sanction Scanner!");
+        Console.WriteLine("Hello, Sanction Scanner!");
+
 
     }
 }
