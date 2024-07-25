@@ -5,5 +5,27 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    @model IEnumerable<Book>
+<ul>
+    @foreach (Book p in Model)
+    {
+        <li>@p.Name</li>
+        <li>@p.Author</li>
+        <li>@p.Cover</li>
+
+        @if (@p.IsBookInLibrary)
+        {
+            <li>IN</li>
+        }
+        else
+        {
+            <li> NOT IN </li>
+
+        }
+            <li></li>
+
+    }
+</ul>
 </div>
 

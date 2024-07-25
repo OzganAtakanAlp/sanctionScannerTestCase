@@ -8,4 +8,11 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.18" />
+    <PackageReference Include="jQuery.UI.Combined" Version="1.13.2" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.5.0" />
+  </ItemGroup>
 </Project>
